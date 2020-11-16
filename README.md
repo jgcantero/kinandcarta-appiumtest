@@ -19,31 +19,31 @@ Herramientas:
 	Es un editor de código redefinido y optimizado para construir y depurar aplicaciones modernas tanto de web como cloud.
 	Actualmente es el IDE por defecto utilizado en el equipo de Web Automation del producto.
 	Para descargar Visual Studio Code utilize el siguiente enlace:
-	    https://code.visualstudio.com/download
+		https://code.visualstudio.com/download
 
 	Java
 
 	Para descargar Java utilize el siguiente enlace:				
-	    https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+		https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 	Es necesario poseer una cuenta registrada en Oracle.
 	Para crear una cuenta utilice el siguiente enlace:
-	    https://profile.oracle.com/myprofile/account/create-account.jspx
+		https://profile.oracle.com/myprofile/account/create-account.jspx
 	Después de la instalación, es necesario establecer las variables de entorno JAVA_HOME y ANDROID_HOME en su archivo bash_profile.
 
 	Homebrew
 
 	Homebrew instala paquetes que no vienen por defecto en los sistemas de Apple. 
 	Para instalar homebrew pegue el siguiente comando en su terminal:
-	    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+		/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 	Python
 
 	Python es un lenguaje orientado a objetos, programación imperativa y funcional.
 	Actualmente es el lenguaje de programación por defecto utilizado en el equipo de Web Automation del producto.
 	Para instalar Python es necesario establecer primero las variables de entorno en su archivo bash_profile:
-	    export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+		export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 	Una vez establecidas las variables de entorno, para instalar Python pegue el siguiente comando en su terminal:
-	    brew install python
+		brew install python
 		brew install pip
 		pip install behave
 
@@ -95,3 +95,9 @@ Configurando el entorno
 	"appActivity": "com.amazon.mShop.home.HomeActivity",
 	"automationName": "UiAutomator2"
 	}
+	
+	Aplicación
+	
+	Descargar la última versión de Amazon Compras desde un mirror site y renombrar el archivo a "amazon-shopping.apk", luego copiar y pegarlo en la
+	siguiente ruta: 
+	kinandcarta-appiumtest/support/apps
