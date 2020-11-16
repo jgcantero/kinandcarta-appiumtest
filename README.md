@@ -98,7 +98,7 @@ Configurando el entorno
 	
 	Aplicación
 	
-	Descargar la última versión de Amazon Compras desde un mirror site y renombrar el archivo a "amazon-shopping.apk", luego copiar y pegarlo en la
+	Descargar la última versión de Amazon Compras desde un mirror site y renombrar el archivo a "amazon_shopping.apk", luego copiar y pegarlo en la
 	siguiente ruta: 
 	kinandcarta-appiumtest/support/apps 
 	(si la carpeta "apps" no está presente, crear una)
