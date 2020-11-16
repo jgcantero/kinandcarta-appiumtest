@@ -30,7 +30,7 @@ Buy = {
         'typeRef':"xpath"
     },
     "ADD TO CART": {
-        'reference':"add to cart button",
+        'reference':"add-to-cart-button",
         'typeRef':"id"
     },
     "VIEW CURRENT CART": {
