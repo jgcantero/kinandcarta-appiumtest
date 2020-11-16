@@ -79,7 +79,7 @@ Configurando el entorno
 
 	Luego configuraremos el emulador:
 
-	|	  Emulator	|             				    Setup               				          |
+	|	  Emulator	|			Setup					|
 	|	Pixel_3a_11	| Hardware Pixel 3a Api 30 OS 11.0 CPU x86_64 with google apps  |
 
 
